@@ -11,3 +11,144 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#search-bar{
+  text-align: center;
+  margin: auto;
+  width: 45%;
+}
+@media (min-width: 0px) and (max-width: 800px) {
+  #search-bar{
+    text-align: center;
+    margin: auto;
+    width: 72%;
+  }
+}
+.articles {
+  width: 82vw;
+  margin: auto;
+  height: 23vw;
+}
+.card-title {
+  text-decoration: none;
+}
+.card-text {
+  text-decoration: none;
+}
+.title {
+  text-align: center;
+  font-family: -apple-system;
+  font-size: 2em;
+  padding: 0 10%;
+}
+@media (min-width: 0px) and (max-width: 1111px) {
+  .articles {
+    width: 90vw;
+    margin: auto;
+    height: 20vw;
+  }
+}
+#story-img {
+  border: solid grey 2px;
+  height: 100%;
+}
+/* #header-div {
+ display: flex;
+ align-items: center;
+} */
+#header-one, #header-two { 
+  font-family: -apple-system;
+  padding: 1.5% 4%;
+  margin: 0 5%;
+  color: #AAD0E5;
+}
+#header-one {
+  flex: 1;
+}
+#header-two {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+#stories-button {
+  margin-top: 2%;
+  width: 22vw;
+  color: white;
+}
+#no-stories-header {
+  text-align: center;
+  margin: auto;
+}
+#no-res-card{
+  margin-bottom: 5rem;
+}
+#description {
+  font-size: 1.4vw;
+}
+@media (min-width: 0px) and (max-width: 600px) {
+  #description {
+    font-size: 3.3vw;
+  }
+
+}
+@media (min-width: 450px) and (max-width: 700px) {
+  #stories-button {
+    margin-top: 2%;
+    width: 32vw;
+    color: white;
+  }
+}
+@media (min-width: 330px) and (max-width: 450px) {
+  #stories-button {
+    margin-top: 2%;
+    width: 42vw;
+    color: white;
+  }
+}
+@media (min-width: 0px) and (max-width: 330px) {
+  #stories-button {
+    margin-top: 2%;
+    width: 70vw;
+    color: white;
+  }
+}
+@media (min-width: 362px) and (max-width: 650px) {
+  #header-one  { 
+    font-family: -apple-system;
+    padding: 1.5% 4%;
+    margin: 0 5%;
+    color: #AAD0E5;
+    font-size: 4vw;
+  }
+  
+}
+@media (min-width: 0px) and (max-width: 620px) {
+  #header-one  { 
+    font-family: -apple-system;
+    padding: 1.5% 4%;
+    margin: 0 5%;
+    color: #AAD0E5;
+    font-size: 6vw;
+  }
+  
+}
+@media (min-width: 362px) and (max-width: 650px) {
+  #header-two  { 
+    font-family: -apple-system;
+    padding: 1.5% 4%;
+    margin: 0 5%;
+    color: #AAD0E5;
+    font-size: 3.3vw;
+  }
+  
+}
+@media (min-width: 0px) and (max-width: 620px) {
+  #header-two { 
+    font-family: -apple-system;
+    padding: 1.5% 4%;
+    margin: 0 5%;
+    color: #AAD0E5;
+    font-size: 5vw;
+  }
+  
+}
+
+
